@@ -1,0 +1,13 @@
+{
+  "name": "web_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd Project2-web-sever && npm install && cd ../Project-2-web-shop && npm install && npm run build ",
+    "start": "node Project2-web-sever/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
